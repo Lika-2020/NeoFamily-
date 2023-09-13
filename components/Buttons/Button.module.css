@@ -1,0 +1,24 @@
+.entrance__block {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+
+}
+
+.entrance {
+  
+  border-radius: 160px;
+  border: 2px solid #302a3e;
+  height: 56px;
+  background-color: transparent;
+  padding: 16px 24px 16px 24px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+
+}
+
+.entrance__text {
+  flex-shrink: 0;
+}

@@ -1,0 +1,161 @@
+
+.container {
+  background-color: #ffffff;
+  border-radius: 64px 64px 0 0;
+  width: auto;
+  height: auto;
+  padding: 48px;
+
+}
+
+.block-contacts,
+.footer-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 274px;
+  border-bottom: 1px solid #efedf2;
+  padding-bottom: 32px;
+}
+
+.block-contacts {
+  padding-bottom: 48px;
+}
+
+.description,
+.title {
+  margin-top: 32px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.contacts {
+  margin-top: 32px;
+}
+
+.block__social-media {
+  display: flex;
+  gap: 16px;
+}
+
+.social-media:hover {
+  cursor: pointer;
+}
+
+.button {
+  width: 136px;
+  height: 56px;
+}
+
+.button:hover{
+  background-color: #302a3e;
+  color: white;
+  cursor: pointer;
+  transition: all .3s linear;
+}
+.svg path {
+  fill: #302A3E; 
+}
+
+.button:hover .svg path {
+  fill: white;
+}
+
+.link-info {
+  color: #2188f6;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  flex-shrink: 0;
+}
+
+.link-info:hover {
+cursor: pointer;
+color: #58a4f7
+}
+
+.icon path {
+  stroke: #2188f6;
+
+}
+
+ .icon path:hover{
+  stroke: #58a4f7;
+  cursor: pointer;
+}
+
+.contact {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.block-contact {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.email{
+  margin-left: 97px;
+}
+
+.skolkovo,
+.license {
+  margin-top: 56px;
+}
+
+.group-document {
+  display: flex;
+  gap: 56px;
+}
+
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.description {
+  margin-top: 64px;
+  margin-bottom: 16px;
+}
+
+.sections {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #483a5799;
+  margin-bottom: 8px;
+}
+
+.sections:hover {
+  cursor: pointer;
+  color: #8c8a8d99;
+}
+
+.block-description {
+  margin-left: 96px;
+}
+
+.block__link-document {
+  display: flex;
+  gap: 56px;
+  margin-top: 129px;
+}
+
+.link-document {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2188f6;
+  text-decoration-line: underline;
+}
+
+.requisites {
+  display: flex;
+  gap: 24px;
+  margin-top: 51px;
+
+
+}
+

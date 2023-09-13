@@ -1,0 +1,56 @@
+.title__text {
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 700;
+  }
+
+  .subtitle {
+    margin-top: 32px;
+  }
+  
+  .subtitle__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: Nunito, sans-serif;
+    color: rgba(48, 42, 62, 0.8);
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 48px;
+  }
+  
+  .buttons__entrance {
+    width: 259px;
+    height: 68px;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 16px;
+    background-color: #2188f6;
+    color: #ffffff;
+    border: none;
+    padding: 22px 32px 22px 32px;
+  }
+
+  .buttons__entrance:hover{
+    background-color: #3394fc;
+    cursor: pointer;
+    transition: all .3s linear;
+  }
+  
+  .buttons__enter {
+    padding: 22px 32px 22px 32px;
+    height: 68px;
+    color: #302a3e;
+    border-color: #302a3e;
+  }
+  
+  .buttons__enter:hover {
+    background-color: #302a3e;
+    color:#ffffff;
+    transition: all .3s linear;
+    cursor: pointer;
+  }

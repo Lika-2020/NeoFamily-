@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 32px 32px 32px 0;
+  padding-left: 189px;
+  padding-right: 189px;
+  gap: 64px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 56px;
+}
+
+.nav__link,
+.nav__active-link {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.nav__link {
+  color: rgba(48, 42, 62, 0.6);
+
+}
+
+.nav__link:hover {
+  color: #302a3e;
+}
+
+.nav__elements {
+  display: flex;
+  align-items: center;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+
+.button:hover{
+  background-color: #302a3e;
+  color: white;
+  cursor: pointer;
+  transition: all .3s linear;
+}
+.svg path {
+  fill: #302A3E; 
+}
+
+.button:hover .svg path {
+  fill: white;
+}
+
