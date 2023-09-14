@@ -19,37 +19,9 @@
   margin-bottom: 16px;
 }
 
-.input {
-  width: 292px;
-  height: 48px;
-  border-radius: 16px;
-  font-family: Comfortaa, Courier sans-serif;
-  color: #302a3e;
-  border: 1px solid #c1c0c6;
-  padding: 15px;
-  background-color: transparent;
-  text-align: center;
-}
 
-.input:focus {
-  outline: none;
-}
 
-.label-input {
-  position: absolute;
-  z-index: 2;
-  font-size: 14px;
-  line-height: 18px;
-  color: #302a3e;
-  font-weight: 700;
-  left: 1.125rem;
-}
 
-.block__label-input {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
 
 .customButton {
   width: 292px;
@@ -74,9 +46,3 @@
   border-bottom: 0.5px solid rgba(48, 42, 62, 0.6);
 }
 
-.icon-union {
-  position: absolute;
-  top: 50%;
-  right: 34px;
-  transform: translateY(-50%);
-}

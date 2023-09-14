@@ -22,10 +22,10 @@
   width: auto;
   height: 50px;
   font-size: 18px;
-  font-weight: 700;
   line-height: 18px;
   transform: rotate(-0.21deg);
   padding: 16px 23px 16px 23px;
+  border: none;
 }
 
 .subject::before,
@@ -52,11 +52,16 @@
   margin-left: 100px;
 }
 
+.svg-iconTransition,
 .svg-icon {
   position: absolute;
   right: -3px;
-  top: 1px;
+  top: -30px;
   z-index: 1;
+}
+
+.svg-iconTransition {
+  top: 1px;
 }
 
 .title {

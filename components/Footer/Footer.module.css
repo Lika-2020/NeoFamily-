@@ -44,6 +44,8 @@
 .button {
   width: 136px;
   height: 56px;
+  display: flex;
+  gap: 5px;
 }
 
 .button:hover{
@@ -52,11 +54,11 @@
   cursor: pointer;
   transition: all .3s linear;
 }
-.svg path {
+.arrow-up path {
   fill: #302A3E; 
 }
 
-.button:hover .svg path {
+.button:hover .arrow-up path {
   fill: white;
 }
 
@@ -73,12 +75,12 @@ cursor: pointer;
 color: #58a4f7
 }
 
-.icon path {
+.icon-contact path {
   stroke: #2188f6;
 
 }
 
- .icon path:hover{
+ .icon-contact path:hover{
   stroke: #58a4f7;
   cursor: pointer;
 }
@@ -88,6 +90,7 @@ color: #58a4f7
   display: flex;
   align-items: center;
   gap: 8px;
+  flex-shrink: 0;
 }
 
 .block-contact {
@@ -96,7 +99,7 @@ color: #58a4f7
 }
 
 .email{
-  margin-left: 97px;
+  margin-left: 32px;
 }
 
 .skolkovo,

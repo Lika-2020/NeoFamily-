@@ -47,11 +47,11 @@
   cursor: pointer;
   transition: all .3s linear;
 }
-.svg path {
+.icon-container path {
   fill: #302A3E; 
 }
 
-.button:hover .svg path {
+.button:hover .icon-container path {
   fill: white;
 }
 

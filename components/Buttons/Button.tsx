@@ -12,7 +12,6 @@ interface ButtonProps {
 function Button(props: ButtonProps) {
   const { text = '', onClick, children, className } = props;
 
-// Объедините классы кнопки
 const buttonClasses = `${styles.entrance} ${className || ''}`
 
 
