@@ -29,7 +29,7 @@ export default function Sticker() {
       
       </div>
 
-      <AnimatedTextBlock text="Попробуй" isAnimating={isAnimating} />
+      <AnimatedTextBlock text="Попробуй" isAnimating={isAnimating} className={''} />
     </div>
   );
 }
