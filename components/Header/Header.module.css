@@ -1,16 +1,22 @@
 .container {
   display: flex;
   align-items: center;
-  padding: 32px 32px 32px 0;
+  margin: 32px 32px 0 0;
   padding-left: 189px;
-  padding-right: 189px;
+  padding-right: 149px;
   gap: 64px;
+  margin-left: -1px;
+}
+
+.logo {
+  margin-left: 18px;
 }
 
 .nav {
   display: flex;
   align-items: center;
-  gap: 56px;
+  gap: 58px;
+  margin-bottom: 8px;
 }
 
 .nav__link,
@@ -18,11 +24,11 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
+  margin-left: -1px;
 }
 
 .nav__link {
   color: rgba(48, 42, 62, 0.6);
-
 }
 
 .nav__link:hover {
@@ -32,26 +38,28 @@
 .nav__elements {
   display: flex;
   align-items: center;
+  margin-left: 3px;
+
 }
 
 .nav__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-right: 12px;
   width: 100vw;
 }
 
-.button:hover{
+.button:hover {
   background-color: #302a3e;
   color: white;
   cursor: pointer;
-  transition: all .3s linear;
+  transition: all 0.3s linear;
 }
 .icon-container path {
-  fill: #302A3E; 
+  fill: #302a3e;
 }
 
 .button:hover .icon-container path {
   fill: white;
 }
-

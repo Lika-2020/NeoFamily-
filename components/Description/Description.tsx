@@ -1,12 +1,10 @@
 'use client';
 
-import React, {  useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
-import IconArrowCurl from '@/public/images/icon-arrowCurl.svg'
-import IconTransition from '@/public/images/icon-transition.svg'
+import IconArrowCurl from '@/public/images/icon-arrowCurl.svg';
+import IconTransition from '@/public/images/icon-transition.svg';
 import styles from './Description.module.css';
-
-
 
 export default function Description() {
   const [isAnimating, setIsAnimating] = useState(true);
@@ -25,7 +23,6 @@ export default function Description() {
     { id: 11, name: 'География', color: '#A3D8AF' },
     { id: 12, name: 'Базовая математика', color: '#B3D4E5' },
   ];
-
 
   const textSpringProps = useSpring({
     to: async (next) => {
@@ -52,45 +49,48 @@ export default function Description() {
     return () => clearInterval(interval);
   }, []);
 
-
   return (
     <div className={styles.container}>
       <div className={styles['block-subject']}>
         {subjects.map((subject) => (
-          <animated.button
-          type={'button'}
+          <animated.a
+            href="#"
             key={subject.id}
             className={styles['subject']}
-            style={{...textSpringProps, backgroundColor: subject.color}}
+            style={{ ...textSpringProps, backgroundColor: subject.color }}
           >
-          <IconTransition className={styles['svg-iconTransition']}/>
+            <IconTransition className={styles['svg-iconTransition']} />
 
             {subject.name}
-          </animated.button>
+          </animated.a>
         ))}
         <div className={styles.vector}>
-        <IconArrowCurl  className={styles['svg-icon']}/>
+          <IconArrowCurl className={styles['svg-icon']} />
         </div>
       </div>
+      <div className={styles.content}>
+        <div className={styles['section-description']}>
+          <div>
+            <h3 className={styles.title}>
+              {' '}
+              Банк заданий по всем <p>предметам</p>{' '}
+            </h3>
+          </div>
+          <div className={styles['block-description']}>
+            <span className={styles.description}>
+              <p>Десятки тысяч качественных заданий по твоим</p> <p> предметам.{' '}
+              Формата ЕГЭ-2024, уровня сложности</p>{' '}
+              <p>экзамена и выше, с ответами и пояснениями. Можно</p>{' '}
+              <p>фильтровать по темам, линиям или использовать</p>{' '}
+              <p> поиск! </p>
+            </span>
+          </div>
 
-      <div className={styles['section-description']}>
-        <div>
-          <h3 className={styles.title}>Банк заданий по всем предметам</h3>
-        </div>
-        <div className={styles['block-description']}>
-          <span className={styles.description}>
-            Десятки тысяч качественных заданий по твоим <br /> предметам.
-            Формата ЕГЭ-2024, уровня сложности <br /> экзамена и выше, с
-            ответами и пояснениями. Можно <br /> фильтровать по темам, линиям
-            или использовать <br />
-            поиск! 
-          </span>
-        </div>
-
-        <div>
-          <span className={styles.call}>
-            Выбирай предмет и переходи <br /> в Банк заданий прямо сейчас!
-          </span>
+          <div className={styles['block-call']}>
+            <span className={styles.call}>
+             Выбирай предмет и переходи <p>в Банк заданий прямо сейчас!</p> 
+            </span>
+          </div>
         </div>
       </div>
     </div>

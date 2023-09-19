@@ -1,3 +1,4 @@
+
 .title__text {
     font-size: 56px;
     line-height: 64px;
@@ -6,11 +7,12 @@
 
   .subtitle {
     margin-top: 32px;
+    margin-left: 8px;
   }
   
   .subtitle__text {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 24px;
     font-family: Nunito, sans-serif;
     color: rgba(48, 42, 62, 0.8);
@@ -33,6 +35,7 @@
     color: #ffffff;
     border: none;
     padding: 22px 32px 22px 32px;
+    margin-left: 8px;
   }
 
   .buttons__entrance:hover{
@@ -42,7 +45,7 @@
   }
   
   .buttons__enter {
-    padding: 22px 32px 22px 32px;
+    padding: 20px 32px 22px 30px;
     height: 68px;
     color: #302a3e;
     border-color: #302a3e;

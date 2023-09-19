@@ -1,9 +1,12 @@
 .form {
-  width: 360px;
+  width: 340px;
+  height: 442px;
   border: 2px solid #302a3e;
   border-radius: 32px;
   padding: 24px;
   margin-left: 40px;
+
+
 }
 
 .title {
@@ -43,6 +46,7 @@
 }
 
 .link-agreement {
-  border-bottom: 0.5px solid rgba(48, 42, 62, 0.6);
+  text-decoration: underline;
+  color: rgba(48, 42, 62, 0.6);
 }
 

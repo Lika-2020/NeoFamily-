@@ -26,6 +26,7 @@ export default function Sticker() {
     <div className={styles.curl}>
       <div>
         <IconCurl />
+      
       </div>
 
       <AnimatedTextBlock text="Попробуй" isAnimating={isAnimating} />

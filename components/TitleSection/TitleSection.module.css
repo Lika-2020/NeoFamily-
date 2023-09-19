@@ -1,9 +1,13 @@
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-top: 32px;
+  position: relative;
 }
 
+.title {
+  margin-left: 10px;
+  width: 120%;
+}
 
 .registration {
   display: grid;
@@ -13,8 +17,43 @@
   width: 100%;
 }
 
-
 .block-IconPlus {
+  position: relative;
+  right: 125px;
+  top: 183px;
+}
+
+.section-like {
+  position: relative;
+  left: 23%;
+  top: -6%;
+}
+
+.registration-form {
   position: absolute;
-  margin-top: 200px;
+  top: -60px;
+  right: -55px;
+}
+
+
+@media ((max-width: 1600px)) {
+
+ 
+  .registration-form {
+    position: absolute;
+    top: -60px;
+    right: -155px;
+  }
+
+  .block-IconPlus {
+    position: relative;
+    right: 95px;
+    top: 183px;
+  }
+
+  .section-like {
+    position: relative;
+    left: 53%;
+    top: -6%;
+  }
 }

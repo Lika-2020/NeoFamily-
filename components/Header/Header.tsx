@@ -1,12 +1,13 @@
 import styles from './Header.module.css';
 import Button from '../Buttons/Button';
 import IconLogo from '@/public/images/icon-logoConteiner.svg';
-import IconContainer from '@/public/images/icon-container.svg'
+import IconContainer from '@/public/images/icon-container.svg';
+
 
 function Header() {
   return (
     <header className={styles.container}>
-      <div>
+      <div className={styles.logo}>
         <IconLogo />
       </div>
 
@@ -27,10 +28,12 @@ function Header() {
             </a>
           </div>
         </nav>
-
-        <Button className={styles.button} text="В Банк заданий">
-         <IconContainer className={styles['icon-container']} />
-        </Button>
+        <div>
+     
+          <Button className={styles.button} text="В Банк заданий">
+            <IconContainer className={styles['icon-container']} />
+          </Button>
+        </div>
       </div>
     </header>
   );

@@ -7,11 +7,12 @@ import styles from './AnimatedTextBlock.module.css'
 interface AnimatedTextBlockProps {
     text: string;
     isAnimating: boolean;
+    className: string;
   }
   
 
 export default function AnimatedTextBlock(props: AnimatedTextBlockProps) {
-    const { text, isAnimating } = props;
+    const { text, isAnimating, className } = props;
 
   const textSpringProps = useSpring({
     to: {
@@ -24,7 +25,7 @@ export default function AnimatedTextBlock(props: AnimatedTextBlockProps) {
   });
 
   return (
-    <animated.div style={textSpringProps}  className={styles['block-text']}>
+    <animated.div style={textSpringProps}  className={`${styles['block-text']} ${className}`}>
 
         <span>{text}</span>
      

@@ -1,26 +1,30 @@
 .clue {
+  color: #9285b0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  transform: rotate(7.09deg);
+}
+.vector {
+  position: relative;
+}
 
-    color: #9285b0;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    transform: rotate(7.09deg);
-  }
-  .vector {
-    position: relative;
-  }
-  
-  .arrow {
-    position: absolute;
-    left: 50px;
-    top: -35px;
-  }
-  
-  
-  .without-registering{
-    padding-left: 189px;
-    padding-right: 189px;
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 8px;
-  }
+.arrow {
+  position: absolute;
+  left: 30px;
+  top: -2px;
+}
+
+.without-registering {
+  padding-left: 189px;
+  padding-right: 189px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.title {
+  position: relative;
+ right: 60px;
+ top: 30px;
+}

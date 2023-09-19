@@ -6,12 +6,14 @@ export default function Tests() {
   return (
     <div className={styles.container}>
       <div>
-        <InfoBox
+        <InfoBox className={styles['block-text']}
           title="Варианты и тесты"
-          subtitle="Наша платформа имеет 4 способа генерации тестов – это покрывает любые сценарии создания вариантов как лично учеником, так и преподавателем. Наш интерфейс безумно удобен и дружелюбен."
+          subtitle="Наша платформа имеет 4 способа генерации тестов – "
+          p="это покрывает любые сценарии создания вариантов"
+          pText='как лично учеником, так и преподавателем. Наш интерфейс безумно удобен и дружелюбен.'
         />
       </div>
-      <div>
+      <div className={styles['block-IconTests']}>
         <IconTests />
       </div>
     </div>

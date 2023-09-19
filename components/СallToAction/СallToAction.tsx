@@ -28,13 +28,12 @@ export default function CallToAction() {
       <div className={styles.title}>
         <InfoTitleSection
           title="Начни подготовку прямо сейчас!"
-          subtitle="Это бесплатно и точно тебе понравится."
-        />
+          subtitle="Это бесплатно и точно тебе понравится." p={''}        />
       </div>
 
-      <AnimatedTextBlock text="Дерзай" isAnimating={isAnimating} />
+      <AnimatedTextBlock className={styles['block-text']} text="Дерзай" isAnimating={isAnimating} />
 
-      <div>
+      <div className={styles['block-iconCallToAction']}>
         <IconCallToAction />
       </div>
     </div>

@@ -1,13 +1,28 @@
 .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 64px;
-    margin-bottom: 60px;
-  }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 64px;
+  position: relative;
+  top: -30px;
+  right: -120px;
+}
+
+.block-text {
+  position: relative;
+  right: 65px;
+  top: 106px;
+  width: 469px;
+}
 
 .button {
-    width: 309px;
-    height: 56px;
-    color: #ffffff;
-    background-color: #302a3e;
+  width: 309px;
+  height: 56px;
+  color: #ffffff;
+  background-color: #302a3e;
+}
+
+@media ((max-width: 1600px)) {
+  .container {
+    top: 60px;
+  }
 }

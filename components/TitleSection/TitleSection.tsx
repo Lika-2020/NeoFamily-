@@ -10,7 +10,8 @@ export default function TitleSection() {
       <section className={styles.title}>
         <InfoTitleSection
           title="NeoFamily — умная подготовка к ЕГЭ"
-          subtitle="Более 30 000 заданий по всем предметам ЕГЭ. Бесплатная теория, тесты и умное повторение"
+          subtitle="Более 30 000 заданий по всем предметам ЕГЭ"
+          p ="Бесплатная теория, тесты и умное повторение"
         />
       </section>
 
@@ -18,10 +19,13 @@ export default function TitleSection() {
         <div className={styles['block-IconPlus']}>
           <IconPlus />
         </div>
-        <RegistrationForm />
+   
+        <RegistrationForm className={styles['registration-form']}/>
+      
+
       </section>
 
-      <section>
+      <section className={styles['section-like']}>
         <IconLike />
       </section>
     </div>

@@ -6,8 +6,11 @@ export default function WithoutRegistering() {
     <div className={styles['without-registering']}>
       <div className={styles.vector}>
         <IconArrowReg className={styles.arrow} />
-
+        <div className={styles.title}>
         <div className={styles.clue}>без регистрации</div>
+        </div>
+      
+      
       </div>
     </div>
   );

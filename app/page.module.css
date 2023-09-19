@@ -1,14 +1,32 @@
+
 .main {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+
 }
 
 .container {
   width: 100%;
 }
 
+
+
 .wrapper {
+  max-width: 1920px;
+  min-width: 1200px;
+}
+
+.block-content {
   padding-left: 189px;
   padding-right: 189px;
+}
+
+
+@media ((max-width: 1600px)) {
+ .block-contentSubject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
 }

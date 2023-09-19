@@ -6,8 +6,19 @@
   position: relative;
 }
 
+
 .title {
+  width: 528px;
   margin-top: 80px;
+  margin-left: 150px;
 }
 
+.block-text {
+  left: 31%;
+  top: 18%;
+}
 
+.block-iconCallToAction {
+  margin-left: -50px;
+  margin-top: -17px;
+}

@@ -1,3 +1,5 @@
+
+
 .title {
     font-size: 32px;
     font-weight: 700;
@@ -5,12 +7,13 @@
   }
   
   .block-subtitle {
-    margin-top: 34px;
+    margin-top: 24px;
     margin-bottom: 56px;
+    margin-left: -6.2px;
   }
   
   .subtitle {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 500;
     line-height: 24px;
     color: rgba(48, 42, 62, 0.8);
@@ -22,6 +25,9 @@
     height: 56px;
     color: #ffffff;
     background-color: #302a3e;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
   }
 
   .button:hover {

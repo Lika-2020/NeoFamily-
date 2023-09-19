@@ -1,12 +1,19 @@
+.footer {
+ display: flex;
+ justify-content: center;
+}
 
 .container {
+ 
   background-color: #ffffff;
   border-radius: 64px 64px 0 0;
   width: auto;
   height: auto;
   padding: 48px;
+  margin-top: -60px;
 
 }
+
 
 .block-contacts,
 .footer-nav {
@@ -14,6 +21,7 @@
   grid-template-columns: 1fr 1fr 274px;
   border-bottom: 1px solid #efedf2;
   padding-bottom: 32px;
+  margin-left: -15px;
 }
 
 .block-contacts {
@@ -22,23 +30,28 @@
 
 .description,
 .title {
-  margin-top: 32px;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
 }
 
 .contacts {
-  margin-top: 32px;
+  margin-top: 30px;
 }
 
 .block__social-media {
   display: flex;
   gap: 16px;
+  margin-left: 36px;
 }
 
 .social-media:hover {
   cursor: pointer;
+}
+
+.block-button {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .button {
@@ -95,7 +108,10 @@ color: #58a4f7
 
 .block-contact {
   display: flex;
+  gap: 8px;
   margin-bottom: 16px;
+ 
+
 }
 
 .email{
@@ -104,7 +120,7 @@ color: #58a4f7
 
 .skolkovo,
 .license {
-  margin-top: 56px;
+  margin-top: 50px;
 }
 
 .group-document {
@@ -136,8 +152,10 @@ color: #58a4f7
   color: #8c8a8d99;
 }
 
+.block-project,
 .block-description {
-  margin-left: 96px;
+  margin-left: 130px;
+  margin-top: -39px;
 }
 
 .block__link-document {
@@ -162,3 +180,12 @@ color: #58a4f7
 
 }
 
+
+
+@media ((max-width: 1600px)) {
+  .footer {
+   padding-left: 105px;
+   padding-right: 105px;
+  }
+ 
+}

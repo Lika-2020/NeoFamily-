@@ -9,8 +9,8 @@
     z-index: 2;
     line-height: 18px;
     font-weight: 700;
-    left: 1.125rem;
-    padding-top: 20px;
+    left: 0.9rem;
+    padding-top: 25px;
     padding-bottom: 20px;
   }
   
@@ -39,8 +39,8 @@
 
   .icon-union {
     position: absolute;
-    top: 50%;
-    right: 34px;
+    top: 60%;
+    right: 15px;
     transform: translateY(-50%);
   }
   

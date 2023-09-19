@@ -2,144 +2,46 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 64px;
-  margin-bottom: 60px;
+  margin-top: 149px;
 }
 
+.block-text {
+  margin-left: 160px;
+}
 
-.information-block {
+.container-informationBlock {
+  position: relative;
   width: 634px;
   height: 394px;
-  background-color: #ffffff;
-  border-radius: 16px;
-  padding-top: 26px;
-  padding-right: 21px;
-  box-sizing: content-box;
+  top: -70px;
+  right: 50px;
 }
 
-.block-designation {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 7px;
-  padding-left: 14px;
+
+
+
+@media ((max-width: 1600px)) {
+.container {
+  margin-top: 100px;
 }
 
-.section-info {
-  padding-left: 36px;
-}
-
-.designation-redirection {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-}
-
-.designation-text {
-  font-size: 11px;
-  line-height: 14px;
-  font-weight: 700;
-}
-
-.block-icon {
-  position: relative;
-  display: flex;
-  gap: 14px;
-}
-
-.message-counter {
-  position: absolute;
-  top: -1px;
-  right: -10px;
-  padding: 2px 5px;
-  font-size: 6px;
-  line-height: 10px;
-  font-weight: 700;
-}
-
-.block-par {
-  display: flex;
-  gap: 7px;
-  margin-top: 47px;
-  margin-bottom: 8px;
-}
-
-.par {
-  font-weight: 400;
-  font-size: 6px;
-  line-height: 8px;
-  color: #483a5799;
-  display: flex;
-}
-
-.par-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.block__status-subject {
-  display: flex;
-  gap: 3px;
-  margin-bottom: 16px;
-}
-
-.article-number {
-  border-radius: 17px;
-  background-color: #f5b1b299;
-  width: auto;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-
-.span-article {
-  font-weight: 700;
-  font-size: 10px;
-  line-height: 14px;
-}
-
-.block-status {
-  background-color: #efedf2;
-  border-radius: 17px;
-  padding-left: 2px;
-  padding-right: 2px;
-  width: auto;
-}
-
-.span-status {
-  color: #483a5799;
-  font-size: 10px;
-  line-height: 14px;
-  font-weight: 700;
-}
-
-.block__general-information {
-  margin-bottom: 10px;
-}
-
-.general-information {
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 12px;
-  font-family: Nunito, sans-serif;
-}
-
-.block__general-information-text {
-  margin-bottom: 14px;
-}
-
-.text__general-information {
-  font-family: Nunito, sans-serif;
-  font-size: 7px;
-  line-height: 10px;
-}
-.list {
-  font-size: 7px;
-  font-family: Nunito, sans-serif;
-  line-height: 10px;
-  font-weight: 400;
-  margin-left: 14px;
-}
-
-.bold {
-  font-weight: 700;
+  .container-informationBlock {
+    position: relative;
+    width: 634px;
+    height: 394px;
+    top: -40px;
+    right: -10px;
+  }
+  
+  
+  .information-block {
+    width: 634px;
+    height: 394px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-sizing: content-box;
+    position: absolute;
+    top: -68px;
+    left: -45px;
+  }
 }
