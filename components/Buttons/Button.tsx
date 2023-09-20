@@ -18,12 +18,13 @@ const buttonClasses = `${styles.entrance} ${className || ''}`
   return (
     <header>
       <div>
-        <div onClick={onClick} className={buttonClasses}>
+        <button onClick={onClick} className={buttonClasses}>
           <div className={styles['entrance__block']}>
-            {children}
-            <div className={styles['entrance__text']}>{text}</div>
+            {children}  
+            <div className={styles['entrance__text']}>{text}</div>  
           </div>
-        </div>
+    
+        </button>
       </div>
     </header>
   );

@@ -3,7 +3,6 @@ import Button from '../Buttons/Button';
 import IconLogo from '@/public/images/icon-logoConteiner.svg';
 import IconContainer from '@/public/images/icon-container.svg';
 
-
 function Header() {
   return (
     <header className={styles.container}>
@@ -29,7 +28,6 @@ function Header() {
           </div>
         </nav>
         <div>
-     
           <Button className={styles.button} text="В Банк заданий">
             <IconContainer className={styles['icon-container']} />
           </Button>

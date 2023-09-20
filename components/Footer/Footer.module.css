@@ -1,19 +1,16 @@
 .footer {
- display: flex;
- justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .container {
- 
   background-color: #ffffff;
   border-radius: 64px 64px 0 0;
   width: auto;
   height: auto;
   padding: 48px;
   margin-top: -60px;
-
 }
-
 
 .block-contacts,
 .footer-nav {
@@ -22,6 +19,12 @@
   border-bottom: 1px solid #efedf2;
   padding-bottom: 32px;
   margin-left: -15px;
+}
+
+.block-social {
+  display: flex;
+  gap: 16px;
+  margin-left: 50px;
 }
 
 .block-contacts {
@@ -61,14 +64,14 @@
   gap: 5px;
 }
 
-.button:hover{
+.button:hover {
   background-color: #302a3e;
   color: white;
   cursor: pointer;
-  transition: all .3s linear;
+  transition: all 0.3s linear;
 }
 .arrow-up path {
-  fill: #302A3E; 
+  fill: #302a3e;
 }
 
 .button:hover .arrow-up path {
@@ -84,16 +87,15 @@
 }
 
 .link-info:hover {
-cursor: pointer;
-color: #58a4f7
+  cursor: pointer;
+  color: #58a4f7;
 }
 
 .icon-contact path {
   stroke: #2188f6;
-
 }
 
- .icon-contact path:hover{
+.icon-contact path:hover {
   stroke: #58a4f7;
   cursor: pointer;
 }
@@ -110,11 +112,9 @@ color: #58a4f7
   display: flex;
   gap: 8px;
   margin-bottom: 16px;
- 
-
 }
 
-.email{
+.email {
   margin-left: 32px;
 }
 
@@ -154,8 +154,8 @@ color: #58a4f7
 
 .block-project,
 .block-description {
-  margin-left: 130px;
-  margin-top: -39px;
+  margin-left: 146px;
+  margin-top: -35px;
 }
 
 .block__link-document {
@@ -176,16 +176,30 @@ color: #58a4f7
   display: flex;
   gap: 24px;
   margin-top: 51px;
+}
 
 
+.social-button {
+  width: 56px;
+  height: 56px;
+  padding: 0;
+  min-width: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  background: none;
+  border-radius: 50px;
+  border:  2px solid #302a3e;
+  
+ 
 }
 
 
 
 @media ((max-width: 1600px)) {
   .footer {
-   padding-left: 105px;
-   padding-right: 105px;
+    padding-left: 105px;
+    padding-right: 105px;
   }
- 
 }

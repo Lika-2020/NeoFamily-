@@ -1,4 +1,4 @@
-import styles from './Footer.module.css';
+
 import classnames from 'classnames';
 import Button from '../Buttons/Button';
 import IconLogo from '@/public/images/icon-logoConteiner.svg';
@@ -10,6 +10,7 @@ import IconPhone from '@/public/images/icon-phone.svg';
 import IconMail from '@/public/images/icon-mail.svg';
 import IconLicense from '@/public/images/icon-license.svg';
 import IconSkolkovo from '@/public/images/icon-skolkovo.svg';
+import styles from './Footer.module.css';
 
 export default function Footer() {
   const contactClasses = classnames(styles.contact, styles.email);
@@ -17,16 +18,43 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
-        <div>
-          <div>
+        <div className={styles.wrapper}>
           <nav className={styles['footer-nav']}>
             <IconLogo />
+            <div className={styles['block-social']}>
+              <a className={styles['link-item']} href="#">
+                <div className={styles['block-IconSocial']}>
+                  <button className={styles['social-button']}>
+                    <div className={styles['block-ButtonIcon']}>
+                      <IconYoutube className={styles['social-media']} />
+                    </div>
+                  </button>
+                </div>
+              </a>
 
-            <div className={styles['block__social-media']}>
-              <IconYoutube className={styles['social-media']} />
-              <IconVk className={styles['social-media']} />
-              <IconTelegram className={styles['social-media']} />
+              <a className={styles['link-item']} href="#">
+                <div className={styles['block-IconSocial']}>
+                  <button className={styles['social-button']}>
+                    <div className={styles['block-ButtonIcon']}>
+                      <IconVk className={styles['social-media']} />
+                    </div>
+                  </button>
+                </div>
+              </a>
+
+              <a className={styles['link-item']} href="#">
+                <div className={styles['block-IconSocial']}>
+                  <button className={styles['social-button']}>
+                    <div className={styles['block-ButtonIcon']}>
+                    <IconTelegram className={styles['social-media']}/>
+                    </div>
+                  </button>
+                </div>
+              </a>
             </div>
+
+             
+          
             <div className={styles['block-button']}>
               <Button text="Наверх" className={styles.button}>
                 <IconArrowUp className={styles['arrow-up']} />
@@ -106,7 +134,6 @@ export default function Footer() {
             <div>ОГРН: 1227800019105</div>
           </div>
         </div>
-      </div>
       </div>
     </footer>
   );
