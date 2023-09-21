@@ -58,9 +58,9 @@ export default function AnimatedInput(props: AnimatedInputProp) {
         onChange={onChange}
       />
       {type === 'password' && (
-        <span className={styles['icon-union']}>
+        <button type='button' className={styles['icon-union']}>
           <IconUnion />
-        </span>
+        </button>
       )}
     </div>
   );

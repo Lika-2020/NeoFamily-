@@ -1,4 +1,3 @@
-
 import classnames from 'classnames';
 import Button from '../Buttons/Button';
 import IconLogo from '@/public/images/icon-logoConteiner.svg';
@@ -23,38 +22,24 @@ export default function Footer() {
             <IconLogo />
             <div className={styles['block-social']}>
               <a className={styles['link-item']} href="#">
-                <div className={styles['block-IconSocial']}>
-                  <button className={styles['social-button']}>
-                    <div className={styles['block-ButtonIcon']}>
-                      <IconYoutube className={styles['social-media']} />
-                    </div>
-                  </button>
+                <div className={styles['social-button']}>
+                  <IconYoutube className={styles['social-media']} />
                 </div>
               </a>
 
               <a className={styles['link-item']} href="#">
-                <div className={styles['block-IconSocial']}>
-                  <button className={styles['social-button']}>
-                    <div className={styles['block-ButtonIcon']}>
-                      <IconVk className={styles['social-media']} />
-                    </div>
-                  </button>
+                <div className={styles['social-button']}>
+                  <IconVk className={styles['social-media']} />
                 </div>
               </a>
 
               <a className={styles['link-item']} href="#">
-                <div className={styles['block-IconSocial']}>
-                  <button className={styles['social-button']}>
-                    <div className={styles['block-ButtonIcon']}>
-                    <IconTelegram className={styles['social-media']}/>
-                    </div>
-                  </button>
+                <div className={styles['social-button']}>
+                  <IconTelegram className={styles['social-media']} />
                 </div>
               </a>
             </div>
 
-             
-          
             <div className={styles['block-button']}>
               <Button text="Наверх" className={styles.button}>
                 <IconArrowUp className={styles['arrow-up']} />
